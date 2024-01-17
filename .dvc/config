@@ -2,3 +2,5 @@
     remote = ssh-storage
 ['remote "ssh-storage"']
     url = ssh://dataml@10.129.0.9/opt/datasets
+    user = dataml
+    port = 22
