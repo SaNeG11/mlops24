@@ -21,10 +21,10 @@ stages:
     outs:
     - datasets/stage3
   split:
-    cmd: python3 scripts/data_processing/train_test_split.py datasets/stage3/train.csv
+    cmd: python3 scripts/data-processing/train_test_split.py datasets/stage3/train.csv
     deps:
     - datasets/stage3/train.csv
-    - scripts/data_processing/train_test_split.py
+    - scripts/data-processing/train_test_split.py
     params:
     - split.split_ratio
     outs:
